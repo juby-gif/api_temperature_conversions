@@ -1,5 +1,5 @@
 def c_to_k(c):
-    k = c + 273.15 #Formula to convert Kelvin to Celcius
+    k = c + 273.15 #Formula to convert Celcius to Kelvin
     return k #Return the value of k to where it stopped(line 10)
 def f_to_c(f):
     fa = (f-32) * 5/9 #Formula to convert Fareheit to Celcius
