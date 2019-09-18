@@ -1,3 +1,5 @@
+#a1_t7.py
+#This program is to check the Air Quality
 carbondioxide_data = 750 #The Carbon dioxide is assigned a data in ppm
 if carbondioxide_data >=400 and carbondioxide_data < 700: #Conditions for checking air Quality
     print("The Air Quality is EXCELLENT")
