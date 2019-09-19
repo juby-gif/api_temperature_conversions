@@ -2,10 +2,10 @@
 #This program is to convert Celsius to Kelvin
 def c_to_k(c):
     k = c + 273.15 #Formula to convert Celsius to Kelvin
-    return k #Return the value of k to where it stopped(line 10)
+    return k
 def f_to_c(f):
     fa = (f-32) * 5/9 #Formula to convert Fareheit to Celsius
-    return fa #Return the value of fa to where it stopped(line 11)
+    return fa 
 c = 25.0
 f = 100.0
 

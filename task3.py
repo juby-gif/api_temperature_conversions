@@ -5,20 +5,18 @@ max_value = 0
 min_value = 0
 i = 0
 j = 0
-count = len(temperatures_arr) #To find the length of the temperature list
-print(count) # To print the length of temperature list
-while j < count: #To find the maximum value
-    temp = temperatures_arr[j]
-    j = j + 1
-    if temp > max_value:
-        max_value = temp
+count = len(temperatures_arr)
+print(count)
+while i < count: #To find the maximum temperature value
+        temp = temperatures_arr[i]
+        i = i + 1
+        if temp > max_value:
+            max_value = temp
 min_value = max_value
-while i < count: #To find the minimum value
-    new = temperatures_arr[i]
-    i = i + 1
-        if temperatures_arr[i] < min_value: #condition to find the minimum value
-            min_value= temperatures_arr[i]
-
-
+while j < count: #To find the minimum temperature value
+    new = temperatures_arr[j]
+    j = j + 1
+    if new < min_value:
+        min_value = new
 print("The Maximum Temperature value is", max_value, "degrees")
 print("The Minimum Temperature value is", min_value, "degrees")
